@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-spawn index.js 2>/dev/null"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uiureo/gyazo-torrent.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Kazato Sugimoto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/uiureo/gyazo-torrent/issues"
@@ -19,6 +18,7 @@
   "homepage": "https://github.com/uiureo/gyazo-torrent#readme",
   "dependencies": {
     "tmp": "0.0.27",
-    "webtorrent": "^0.62.1"
+    "webtorrent": "^0.62.1",
+    "electron-spawn": "^3.1.0"
   }
 }
