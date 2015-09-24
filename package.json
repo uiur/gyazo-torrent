@@ -1,0 +1,24 @@
+{
+  "name": "gyazo-torrent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uiureo/gyazo-torrent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uiureo/gyazo-torrent/issues"
+  },
+  "homepage": "https://github.com/uiureo/gyazo-torrent#readme",
+  "dependencies": {
+    "tmp": "0.0.27",
+    "webtorrent": "^0.62.1"
+  }
+}
